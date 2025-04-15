@@ -66,6 +66,8 @@ const SpecializedSkillsBubbleChart = () => {
       <h3 className="text-xl font-semibold mb-4">
         In-Demand Specialized Skills by Posting Share and Growth
       </h3>
+      <p className="text-center">This bubble chart highlights top specialized skills based on their percentage of total job postings and projected growth rate. Each bubble represents a skill, with its size proportional to its volume of mentions in job postings. This visualization helps users quickly identify skills that are both in high demand and expected to grow significantly, offering valuable insights for workforce planning and career alignment.</p>
+
       <Link to="/" className="text-blue-500 underline mb-6">← Back</Link>
 
       <div className="w-full flex justify-center items-center ml-10">

@@ -79,7 +79,8 @@ const JobMap = () => {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
         <div className="flex flex-col items-center space-x-6 text-white">
-        <h1>Median Advertised Salaries in STEM Occupations by U.S. County</h1>
+        <h2 className="text-lg font-semibold m-6">Median Advertised Salaries in STEM Occupations by U.S. County</h2>
+        <p className="text-center">This component visualizes the median advertised salaries for STEM occupations across U.S. counties using a Plotly-powered geographic map. It reads county-level data (latitude, longitude, salary) from a CSV file and plots each location as a colored marker, where the color intensity reflects the median salary. The map provides a geographic perspective on how salary distributions vary nationally, helping users identify high- and low-paying regions at a glance.</p>
         <Link to="/" className="text-blue-500 underline mb-6">← Back</Link>
           <div className="flex flex-col space-y-1 text-left text-base leading-snug font-semibold">
           <div ref={chartRef} style={{ width: "100%", height: "600px" }} />

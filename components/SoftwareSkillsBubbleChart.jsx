@@ -65,7 +65,9 @@ const TopSoftwareSkills = () => {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
             <div className="flex flex-col items-center space-x-6 text-white">
-            <h1>Top Software Skills by Demand and Growth Potential</h1>
+            <h2 className="text-xl font-semibold mb-4">Top Software Skills by Demand and Growth Potential</h2>
+            <p className="text-center">Similar in structure to the specialized skills chart, this component focuses specifically on software programs/tools. It visualizes the market share and projected growth of top software skills in job postings. The component allows users to explore which technologies are most frequently requested and growing rapidly, providing guidance on which tools are currently valued by employers.</p>
+
             <Link to="/" className="text-blue-500 underline mb-6">← Back</Link>
               <div className="flex flex-col space-y-1 text-left text-base leading-snug font-semibold">
               <Plot

@@ -106,8 +106,8 @@ const JobPostingsTable = () => {
     
     <div className="h-screen w-screen flex justify-center items-center">
     <div className="flex flex-col items-center space-x-6 text-white">
-    <h2 className="text-xl font-bold mb-4">Job Postings vs Hires – Interactive Table (2023)
-    </h2>
+    <h2 className="text-xl font-bold mb-4">Job Postings vs Hires – Interactive Table (2023)</h2>
+    <p className="text-center">This interactive table compares average monthly job postings with average monthly hires for a variety of occupations. It highlights the gap between demand (postings) and supply (hires), and calculates the percent difference, with color-coded rows for over- or under-supply. The component provides stakeholders with insight into potential labor shortages or oversaturation in specific fields.</p>
     <Link to="/" className="text-blue-500 underline mb-6">← Back</Link>
       <div className="flex flex-col space-y-1 text-left text-base leading-snug font-semibold">
       <DataTable
